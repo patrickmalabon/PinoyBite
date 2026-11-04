@@ -1,0 +1,7 @@
+
+/* Backend CRUD actions */
+.backendRow{display:grid;grid-template-columns:55px minmax(160px,1fr) 110px 110px auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #eee}
+.backendRow em{font-style:normal;font-size:12px;font-weight:700;color:#16803a;background:#eaf8ef;padding:5px 9px;border-radius:999px;display:inline-block;width:max-content}
+.backendRow .danger{border:1px solid #ef4444;background:#fff;color:#dc2626;border-radius:8px;padding:7px 10px;cursor:pointer;margin-left:6px}
+.backendRow .secondary{padding:7px 10px}
+@media(max-width:800px){.backendRow{grid-template-columns:40px 1fr 90px}.backendRow em,.backendRow>div{grid-column:2/-1}}
